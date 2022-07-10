@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Введите количество чисел");
 int number = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-for (int i = 0; i < number; i++)
+for (int i = 1; i <= number; i++)
 {
     int userNumber = Convert.ToInt32(Console.ReadLine());
     if (userNumber > 0)
